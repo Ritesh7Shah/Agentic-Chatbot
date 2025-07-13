@@ -1,0 +1,84 @@
+### Backend ###
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.python-version
+venv/
+
+# Credentials and secrets - CRITICAL TO IGNORE
+credentials.json
+token.pickle
+*.key
+*.pem
+*.cert
+
+# Environment variables
+.env
+.env.*
+
+# Database/vector stores
+chroma_store/
+chroma.sqlite3
+
+# Temporary files
+temp_uploads/
+*.tmp
+*.temp
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+### Frontend ###
+# Dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+.out/
+
+# Environment variables
+.env
+.env.*
+.env.local
+
+# Cache and temporary files
+.cache/
+.vite/
+.turbo/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### IDE/Settings ###
+# Editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### System ###
+# Docker
+docker-compose.override.yml
+
+# Misc
+*.bak
+*.backup
+*~

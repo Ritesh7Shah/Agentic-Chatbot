@@ -1,0 +1,60 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langchain
+chromadb
+openai
+langchain_community
+python-multipart
+langchain-openai
+langchain-chroma
+pypdf
+# Core Framework
+fastapi
+uvicorn[standard]
+python-dotenv
+python-multipart
+
+# LangChain Core + Ecosystem
+langchain
+langchain-openai
+langchain-chroma
+langchain_community
+langchain-experimental
+
+# Vector Store
+chromadb
+
+# PDF + File Handling
+pypdf
+pandas
+
+# Embeddings + OpenAI API
+openai
+tiktoken
+
+# Web Scraping Tools
+requests
+beautifulsoup4
+wikipedia
+
+# Audio Tools
+whisper
+ffmpeg-python
+pyttsx3
+
+# Google Tools
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# Optional (but useful for async features, CORS)
+aiofiles
+
+tabulate
+langgraph
+
+duckduckgo-search
+openai-whisper
+
+gTTS
